@@ -9,7 +9,7 @@ services:
   volumes:
    - ./php:/var/www/html/
   ports:
-   - 8094:80
+   - 8092:80
  db:
   container_name: mysql8
   image: mysql:8.0
